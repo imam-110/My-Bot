@@ -21,7 +21,7 @@ class ChatViewModel : ViewModel() {
 
     val generativeModel = GenerativeModel(
         "gemini-1.5-flash-001",
-        "AIzaSyBu8-ZngUJiYcujDoQNL5ZcM0dRBtU8LE8",
+        "************************",
         generationConfig = generationConfig {
             temperature = 0.15f
             topK = 32
